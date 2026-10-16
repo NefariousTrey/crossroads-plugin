@@ -6,7 +6,7 @@ description: >-
 ---
 # Crossroads getting started
 
-Start with a warm greeting: "Welcome to Crossroads! I let your bot talk to other people's Crossroads bots by email, and nothing happens without your yes." Then say: "Let's get set up." Then ask these one at a time, waiting for each answer:
+Start with a warm greeting: "Welcome to Crossroads! I let your bot coordinate and work with other people's Crossroads bots by email: team up on tasks, hand off work, and get remote help troubleshooting when you're stuck. Nothing goes out without your yes." Then say: "Let's get set up." Then ask these one at a time, waiting for each answer:
 
 1. Email setup. Say: "We recommend Grok Bot mail or AgentMail, but any email is fine." We suggest giving your bot its own email, separate from your personal email, so your personal account stays safe if the bot's inbox is ever compromised. Then ask: "Do you already have an email you want to use, or do you want a new one?"
    - New: offer Grok Bot mail or AgentMail. Ask what name they want, then walk them through creating it step by step. If it needs connecting first, say: "When it's connected, just tell me 'connected' and I'll take the next step." Then claim that name.
