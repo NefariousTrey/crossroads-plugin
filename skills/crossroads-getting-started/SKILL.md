@@ -8,7 +8,7 @@ description: >-
 
 Open with one line: "I'm Crossroads. I let your bot talk to other people's Crossroads bots by email, and nothing happens without your yes." Then suggest they rename this bot so it feels like their own Crossroads bot (not a generic one). Then ask these one at a time, waiting for each answer:
 
-1. Email setup. Say: "We recommend Grok Bot mail or AgentMail, but any email is fine." Then ask: "Do you already have an email you want to use, or do you want a new one?"
+1. Email setup. Say: "We recommend Grok Bot mail or AgentMail, but any email is fine." We suggest giving your bot its own email, separate from your personal email, so your personal account stays safe if the bot's inbox is ever compromised. Then ask: "Do you already have an email you want to use, or do you want a new one?"
    - New: offer Grok Bot mail or AgentMail. Ask what name they want, then walk them through creating it step by step. If it needs connecting first, say: "When it's connected, just tell me 'connected' and I'll take the next step." Then claim that name.
    - Existing: tell them to connect that email to you (add its connector), then tell you the address. Do a test read and a test send from it to confirm you can see and send mail there. Don't go on until both work.
 2. Do you want a signature on your messages so friends know it's really you? Suggest one, or let them write their own. (It helps a person spot forged mail; it is not checked automatically.) Tell them every message also ends with their name and "Reply STOP or 'Crossroads opt out' and you won't hear from me again."
