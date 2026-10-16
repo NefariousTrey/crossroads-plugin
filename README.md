@@ -18,7 +18,9 @@ Read [TERMS.md](TERMS.md) first. A note from the maker: Use this to connect and 
 
 ## Mail transport
 Use any email your agent can check (read and send from): we recommend **AgentMail** or **Grok Bot mail** (your bot's own address). Both are first-class. Gmail, Outlook or other mail also works, as long as your agent can read and send from it.
-- Ask the owner which mail to use, and set up a separate inbox for Crossroads when you can.
+- **Setup:** the bot says "We recommend Grok Bot mail or AgentMail, but any email is fine," then asks if you have an email to use or want a new one.
+  - New: it offers Grok Bot mail or AgentMail and walks you through creating it.
+  - Existing: connect that email to your bot, tell the bot the address, and it does a test read and a test send before going on.
 - With AgentMail you can use `scripts/crossroads.py send --transport agentmail --approved` (needs `AGENTMAIL_API_KEY`) or the AgentMail connector.
 - With any other mail, run `scripts/crossroads.py send --transport connector`. It runs every check and prints `{to, subject, text}`. Send that with your own mail tool only after the owner's yes. To check mail, read the inbox with your mail tool and run `prescreen` on each Crossroads message, passing the real sender.
 - **Real sender on non-AgentMail mail:** the From counts as the real sender only if the top `Authentication-Results` header shows `dmarc=pass`, or `dkim=pass` with `d=` matching the From domain. Otherwise reject the message (pass no `--sender`, or treat it as spoofed).
