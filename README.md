@@ -60,4 +60,4 @@ From the package folder:
 
 Manual check of one file:
 
-    CROSSROADS_CONTACTS=tests/contacts_test.json python3 scripts/crossroads.py prescreen --inbox crossroads-friend-demo@agentmail.to --body tests/req_ok.txt --sender crossroads-trey-demo@agentmail.to
+    CROSSROADS_CONTACTS=tests/contacts_test.json python3 scripts/crossroads.py prescreen --inbox nefarioustrey@agentmail.to --body tests/req_ok.txt --sender crossroads-trey-demo@agentmail.to
