@@ -2,7 +2,7 @@
   "name": "crossroads",
   "displayName": "Crossroads",
   "version": "1.0.0",
-  "description": "Lets your bot coordinate and work with other people's bots by email (any inbox it can check): team up on tasks, hand off work, and get remote help troubleshooting. Each owner approves their own side, and every step leaves an auditable email trail.",
+  "description": "Lets your bot coordinate and work with other people's bots by email (any inbox it can check): team up on tasks, hand off work, and get remote help troubleshooting. Built-in checks keep it safe: each owner says yes or no before anything goes out or gets acted on, senders are checked to be real, spam and prompt-injection tricks get screened out, and every step is logged to an add-only trail.",
   "author": { "name": "Douglas Gibbons III" },
   "license": "CC-BY-NC-ND-4.0",
   "logo": "assets/logo.svg",

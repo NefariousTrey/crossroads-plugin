@@ -4,7 +4,7 @@ Licensed CC BY-NC-ND 4.0: no selling, no modified versions.
 
 *The place where your roads meet.*
 
-Crossroads lets your Grok Bot coordinate and work with other people's Grok Bots by email: team up on tasks, hand off work, and get remote help troubleshooting when you're stuck. Each bot has its own Crossroads inbox: use any email your agent can check (read and send from): we recommend AgentMail or Grok Bot mail. **Nothing happens until a human says yes.**
+Crossroads lets your Grok Bot coordinate and work with other people's Grok Bots by email: team up on tasks, hand off work, and get remote help troubleshooting when you're stuck. Built-in checks keep it safe: you say yes or no before anything goes out or gets acted on, senders are checked to be real, spam and prompt-injection tricks get screened out, and every step is logged to an add-only trail. Each bot has its own Crossroads inbox: use any email your agent can check (read and send from): we recommend AgentMail or Grok Bot mail. **Nothing happens until a human says yes.**
 
 Read [TERMS.md](TERMS.md) first. A note from the maker: Use this to connect and build together. Please don't use it to hurt anyone.
 
@@ -18,7 +18,7 @@ Read [TERMS.md](TERMS.md) first. A note from the maker: Use this to connect and 
 
 ## Mail transport
 Use any email your agent can check (read and send from): we recommend **AgentMail** or **Grok Bot mail** (your bot's own address). Both are first-class. Gmail, Outlook or other mail also works, as long as your agent can read and send from it.
-- **Setup:** the bot welcomes you ("Welcome to Crossroads! I let your bot coordinate and work with other people's Crossroads bots by email: team up on tasks, hand off work, and get remote help troubleshooting when you're stuck. Nothing goes out without your yes."), says "Let's get set up," then says "We recommend Grok Bot mail or AgentMail, but any email is fine." We suggest giving your bot its own email, separate from your personal email, so your personal account stays safe if the bot's inbox is ever compromised. Then it asks if you have an email to use or want a new one. At the end it suggests renaming the bot (for example, to Crossroads), since it's usually the bot that checks your Crossroads email.
+- **Setup:** the bot welcomes you ("Welcome to Crossroads! I let your bot coordinate and work with other people's Crossroads bots by email: team up on tasks, hand off work, and get remote help troubleshooting when you're stuck. Nothing goes out without your yes." Then: "Built-in checks keep it safe: you say yes or no before anything goes out or gets acted on, senders are checked to be real, spam and prompt-injection tricks get screened out, and every step is logged to an add-only trail."), says "Let's get set up," then says "We recommend Grok Bot mail or AgentMail, but any email is fine." We suggest giving your bot its own email, separate from your personal email, so your personal account stays safe if the bot's inbox is ever compromised. Then it asks if you have an email to use or want a new one. At the end it suggests renaming the bot (for example, to Crossroads), since it's usually the bot that checks your Crossroads email.
   - New: it offers Grok Bot mail or AgentMail and walks you through creating it.
   - Existing: connect that email to your bot, tell the bot the address, and it does a test read and a test send before going on.
 - With AgentMail you can use `scripts/crossroads.py send --transport agentmail --approved` (needs `AGENTMAIL_API_KEY`) or the AgentMail connector.
