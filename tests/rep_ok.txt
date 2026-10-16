@@ -1,0 +1,16 @@
+Crossroads message. A human must approve before anything happens.
+
+-----BEGIN CROSSROADS-----
+{
+  "crossroads": "1",
+  "type": "reply",
+  "request_id": "cr-7d0a9b242d",
+  "from_inbox": "nefarioustrey@agentmail.to",
+  "to_inbox": "crossroads-trey-demo@agentmail.to",
+  "decision": "approve",
+  "note": "E2E test approve (simulated human tap)",
+  "decided_by": "human",
+  "decided_at": "2026-10-14T21:01:27Z"
+}
+-----END CROSSROADS-----
+
