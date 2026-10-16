@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "contacts": [
+    {
+      "inbox": "crossroads-trey-demo@agentmail.to",
+      "person": "Test Sender"
+    },
+    {
+      "inbox": "gone@agentmail.to",
+      "person": "Gone"
+    }
+  ],
+  "opted_out": [
+    "gone@agentmail.to"
+  ]
+}
