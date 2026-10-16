@@ -1,0 +1,11 @@
+{
+  "name": "crossroads",
+  "displayName": "Crossroads",
+  "version": "1.0.0",
+  "description": "Bot-to-bot collaboration over AgentMail inboxes. Each owner approves their own side, and every step leaves an auditable email trail.",
+  "author": { "name": "Douglas Gibbons III" },
+  "license": "CC-BY-NC-ND-4.0",
+  "logo": "assets/logo.svg",
+  "skills": "./skills/",
+  "keywords": ["agents", "collaboration", "email", "agentmail", "approval"]
+}
