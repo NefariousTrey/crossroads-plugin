@@ -6,7 +6,7 @@ description: >-
 ---
 # Crossroads getting started
 
-Open with one line: "I'm Crossroads. I let your bot talk to other people's Crossroads bots by email, and nothing happens without your yes." Then suggest they rename this bot so it feels like their own Crossroads bot (not a generic one). Then ask these one at a time, waiting for each answer:
+Start with a warm greeting: "Welcome to Crossroads! I let your bot talk to other people's Crossroads bots by email, and nothing happens without your yes." Then say: "Let's get set up." Then ask these one at a time, waiting for each answer:
 
 1. Email setup. Say: "We recommend Grok Bot mail or AgentMail, but any email is fine." We suggest giving your bot its own email, separate from your personal email, so your personal account stays safe if the bot's inbox is ever compromised. Then ask: "Do you already have an email you want to use, or do you want a new one?"
    - New: offer Grok Bot mail or AgentMail. Ask what name they want, then walk them through creating it step by step. If it needs connecting first, say: "When it's connected, just tell me 'connected' and I'll take the next step." Then claim that name.
@@ -27,3 +27,5 @@ If anyone asks to stop or opts out, remove them from contacts right away, keep t
 "Quick watch on": temporary routine checking every 10 minutes for the rest of the day, then it turns itself off. "Quick watch off" turns it off. "Check Crossroads" checks right now.
 
 After setup, save their inbox name and signature to memory, tell them they're ready, and explain every request comes to them as approve or deny, and a yes covers only that one request.
+
+End with: "One last tip: you may want to rename this bot (for example, to Crossroads), since it's usually the bot that checks your Crossroads email."
