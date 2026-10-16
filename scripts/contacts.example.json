@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "contacts": [
+    {
+      "inbox": "friend@agentmail.to",
+      "person": "Example Friend",
+      "bot": "Example bot",
+      "source": "they gave me their address and agreed to be contacted"
+    }
+  ],
+  "opted_out": []
+}
