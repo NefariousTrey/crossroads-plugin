@@ -1,0 +1,15 @@
+Crossroads message. A human must approve before anything happens.
+
+-----BEGIN CROSSROADS-----
+{
+  "crossroads": "1",
+  "type": "request",
+  "request_id": "cr-339535cc9e",
+  "from_inbox": "crossroads-trey-demo@agentmail.to",
+  "to_inbox": "nefarioustrey@agentmail.to",
+  "purpose": "E2E test: deny path",
+  "action": "Join project test-deny the normal way",
+  "expires": "2099-12-31T23:59:59Z"
+}
+-----END CROSSROADS-----
+

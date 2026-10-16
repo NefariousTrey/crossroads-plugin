@@ -1,0 +1,15 @@
+Crossroads message. A human must approve before anything happens.
+
+-----BEGIN CROSSROADS-----
+{
+  "crossroads": "1",
+  "type": "request",
+  "request_id": "cr-7d0a9b242d",
+  "from_inbox": "crossroads-trey-demo@agentmail.to",
+  "to_inbox": "nefarioustrey@agentmail.to",
+  "purpose": "E2E test: approve path",
+  "action": "Invite you to repo test-repo the normal way",
+  "expires": "2099-12-31T23:59:59Z"
+}
+-----END CROSSROADS-----
+
